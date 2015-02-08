@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Custom Fonts - danielme.com</string>
+    <string name="system">The quick brown fox...(System default)</string>
+    <string name="roboto_normal">The quick brown fox...(Roboto - normal)</string>    
+    <string name="roboto_italic">The quick brown fox...(Roboto - italic)</string>    
+    <string name="roboto_bold">The quick brown fox...(Roboto - bold)</string>     
+</resources>

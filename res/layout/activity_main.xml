@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.danieme.blog.android.customfonts"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical" >
+
+    <com.danieme.blog.android.customfonts.CustomTextView
+        android:id="@+id/textViewSystem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textView_margin"
+        android:text="@string/system"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textView_fontSize" />
+
+    <com.danieme.blog.android.customfonts.CustomTextView
+        android:id="@+id/textViewRoboto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textView_margin"
+        android:text="@string/roboto_normal"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textView_fontSize" 
+        custom:font="Roboto"/>
+
+    <com.danieme.blog.android.customfonts.CustomTextView
+        android:id="@+id/textViewRobotoItalic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textView_margin"
+        android:text="@string/roboto_italic"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textView_fontSize"
+        android:textStyle="italic"
+        custom:font="Roboto" />
+
+    <com.danieme.blog.android.customfonts.CustomTextView
+        android:id="@+id/textViewRobotoBold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textView_margin"
+        android:text="@string/roboto_bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textView_fontSize"
+        android:textStyle="bold"
+        custom:font="Roboto" />
+
+</LinearLayout>
